@@ -118,4 +118,9 @@ section {
   .responsive-alignment {
     text-align: left;
   }
+
+  .section__description {
+    width: 50%;
+    margin-inline: auto;
+  }
 }

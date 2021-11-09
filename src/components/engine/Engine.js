@@ -8,7 +8,7 @@ export const Engine = () => {
       <h2 className="section__subtitle ">
         Precise data with our Accuracy Engine
       </h2>
-      <p className="section__description">
+      <p>
         Get consistent and noise-free location data powered by data filters and
         IMU sensor fusion with up to 5 meters accuracy.
       </p>
