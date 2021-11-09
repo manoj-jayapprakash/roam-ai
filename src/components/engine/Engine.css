@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  .compare__sdks {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .compare__sdks img {
+    width: 50%;
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 1110px) {
+  .section__description {
+    width: 50%;
+  }
+}

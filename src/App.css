@@ -10,7 +10,7 @@ Utility Classes
 }
 
 .container {
-  padding-inline: 2em;
+  padding-inline: 1em;
   margin-inline: auto;
   max-width: 80rem;
 }
@@ -60,13 +60,14 @@ Components
   padding: 0.5rem 1rem;
   border: 2px solid transparent;
   border-radius: 5px;
-  margin-right: 1rem;
+
   margin-top: 0.5rem;
 }
 
 .btn-primary {
   background-color: hsl(var(--clr-blue));
   color: hsl(var(--clr-white));
+  margin-right: 1rem;
 }
 
 .btn-secondary {
@@ -94,6 +95,23 @@ section {
   font-size: var(--fs-600);
 }
 
+.section__links {
+  color: hsl(var(--clr-blue));
+  font-weight: 700;
+}
+
 .spacer > * {
   margin-top: var(--spacing, 1rem);
+}
+
+/* Mobile and tablet screens */
+.responsive-alignment {
+  text-align: center;
+}
+
+/* Desktop and larger screens */
+@media (min-width: 1110px) {
+  .responsive-alignment {
+    text-align: left;
+  }
 }

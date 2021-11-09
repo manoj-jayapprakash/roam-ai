@@ -7,7 +7,7 @@ import android from '../../assets/android.png';
 
 export const Hero = () => {
   return (
-    <section className="flex hero">
+    <section className="hero responsive-alignment">
       <div className="hero__content spacer">
         <p className="section__title ">Location SDK</p>
         <h1 className="fs-700 hero__title">
