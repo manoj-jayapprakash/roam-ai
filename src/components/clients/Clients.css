@@ -1,0 +1,12 @@
+.client {
+  width: 8rem;
+  margin-inline: auto;
+}
+
+@media (min-width: 768px) {
+  .clients {
+    display: flex;
+    justify-content: center;
+    padding-inline: 1rem;
+  }
+}

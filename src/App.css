@@ -81,6 +81,10 @@ Components
   color: hsl(var(--clr-blue));
 }
 
+section {
+  margin: 4rem 0;
+}
+
 .spacer > *:where(:not(:first-child)) {
   margin-top: var(--spacing, 1rem);
 }
