@@ -1,0 +1,32 @@
+.about__illustration {
+  display: none;
+}
+
+.stats {
+  margin-top: 3rem;
+}
+
+.stat__number {
+  color: hsl(var(--clr-black));
+}
+
+@media (min-width: 768px) {
+  .stats {
+    display: flex;
+    gap: 4rem;
+  }
+}
+
+@media (min-width: 1110px) {
+  .details {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .details > * {
+    width: 35%;
+  }
+  .about__illustration {
+    display: block;
+  }
+}
