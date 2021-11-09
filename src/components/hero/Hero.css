@@ -15,8 +15,21 @@
   color: hsl(var(--clr-blue));
 }
 
+.mobile__sdks {
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
+  .hero {
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+  }
   .hero__image {
     display: block;
+  }
+  .mobile__sdks {
+    justify-content: flex-start;
   }
 }

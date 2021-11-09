@@ -61,6 +61,7 @@ Components
   border: 2px solid transparent;
   border-radius: 5px;
   margin-right: 1rem;
+  margin-top: 0.5rem;
 }
 
 .btn-primary {
@@ -80,6 +81,6 @@ Components
   color: hsl(var(--clr-blue));
 }
 
-.spacer * + * {
+.spacer > *:where(:not(:first-child)) {
   margin-top: var(--spacing, 1rem);
 }
