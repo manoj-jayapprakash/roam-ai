@@ -82,9 +82,18 @@ Components
 }
 
 section {
-  margin: 4rem 0;
+  margin: 8rem 0;
 }
 
-.spacer > *:where(:not(:first-child)) {
+.section__title {
+  text-transform: uppercase;
+}
+
+.section__subtitle {
+  color: hsl(var(--clr-black));
+  font-size: var(--fs-600);
+}
+
+.spacer > * {
   margin-top: var(--spacing, 1rem);
 }

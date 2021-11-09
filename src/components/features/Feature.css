@@ -1,0 +1,33 @@
+.features {
+  text-align: center;
+}
+
+.feature {
+  --spacing: 0.75rem;
+}
+
+.feature__image {
+  margin-inline: auto;
+}
+
+.feature__title {
+  color: hsl(var(--clr-black) / 0.85);
+}
+
+@media (min-width: 768px) {
+  .features {
+    text-align: left;
+  }
+
+  .all-features {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .feature {
+    width: 30%;
+  }
+  .feature__image {
+    margin-inline: 0;
+  }
+}

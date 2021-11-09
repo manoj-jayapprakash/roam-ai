@@ -9,7 +9,7 @@ export const Hero = () => {
   return (
     <section className="flex hero">
       <div className="hero__content spacer">
-        <p className="section__title uppercase">Location SDK</p>
+        <p className="section__title ">Location SDK</p>
         <h1 className="fs-700 hero__title">
           High accuracy location <span className="highlight">SDK</span>
         </h1>
