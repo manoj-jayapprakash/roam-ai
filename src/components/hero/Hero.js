@@ -9,7 +9,7 @@ import { Button } from '../utils/Button';
 
 export const Hero = () => {
   return (
-    <section className="hero responsive-alignment">
+    <section className="container hero responsive-alignment">
       <div className="hero__content spacer">
         <p className="section__title ">Location SDK</p>
         <h1 className="fs-700 hero__title">

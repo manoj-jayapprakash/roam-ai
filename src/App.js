@@ -1,5 +1,6 @@
 import './App.css';
 
+import { Header } from './components/header/Header';
 import { Hero } from './components/hero/Hero';
 import { Clients } from './components/clients/Clients';
 import { Features } from './components/features/Features';
@@ -11,7 +12,8 @@ import { Footer } from './components/footer/Footer';
 
 function App() {
   return (
-    <div className="app container">
+    <div className="app">
+      <Header />
       <Hero />
       <Clients />
       <Features />

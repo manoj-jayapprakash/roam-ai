@@ -4,7 +4,7 @@ import native from '../../assets/native-gps.png';
 import roam from '../../assets/roam-sdk.png';
 export const Engine = () => {
   return (
-    <section className="responsive-alignment spacer">
+    <section className="container responsive-alignment spacer" id="section-4">
       <h2 className="section__subtitle ">
         Precise data with our Accuracy Engine
       </h2>

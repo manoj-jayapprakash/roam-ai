@@ -23,7 +23,7 @@ export const About = () => {
     },
   ];
   return (
-    <section className="spacer responsive-alignment">
+    <section className="container spacer responsive-alignment">
       <p className="section__title">why roam.ai?</p>
       <div className="flex details">
         <h2 className="section__subtitle">

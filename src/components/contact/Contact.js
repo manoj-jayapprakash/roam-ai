@@ -4,7 +4,7 @@ import { Button } from '../utils/Button';
 
 export const Contact = () => {
   return (
-    <section className="spacer txt-center">
+    <section className="container spacer txt-center" id="section-2">
       <h2 className="section__subtitle ">Get Started with Roam</h2>
       <p className="contact__description">
         Developers from startups to large enterprises use our SDK and APIs to

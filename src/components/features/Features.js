@@ -26,7 +26,10 @@ export const Features = () => {
     },
   ];
   return (
-    <section className="spacer features responsive-alignment">
+    <section
+      className="container spacer features responsive-alignment"
+      id="section-1"
+    >
       <p className="section__title">Location SDK</p>
       <h2 className="section__subtitle">Why build with Roam?</h2>
       <div className="spacer all-features">

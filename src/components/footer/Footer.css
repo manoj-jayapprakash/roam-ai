@@ -39,6 +39,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
+    padding: 0 4rem;
   }
   .footer__logo {
     text-align: left;
@@ -53,6 +54,7 @@
 
   .footer__right {
     flex-wrap: nowrap;
+    justify-content: flex-end;
   }
 
   .footer__bottom {

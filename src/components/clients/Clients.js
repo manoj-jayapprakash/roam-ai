@@ -8,7 +8,7 @@ import lets from '../../assets/lets.png';
 export const Clients = () => {
   return (
     <section>
-      <ul className="spacer clients">
+      <ul className="container spacer clients">
         <li className="client">
           <img src={hugo} alt="Hugo company logo" />
         </li>

@@ -35,7 +35,7 @@ export const Testimonials = () => {
     },
   ];
   return (
-    <section className="testimonials txt-center">
+    <section className="container testimonials txt-center" id="section-3">
       <div className="spacer testimonials__left">
         <p className="section__title">Testimonials</p>
         <h2 className="section__subtitle">See what our customers say</h2>
