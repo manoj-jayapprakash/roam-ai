@@ -1,0 +1,22 @@
+.hero {
+  text-align: center;
+}
+
+.hero__image {
+  display: none;
+}
+
+.hero__title {
+  color: hsl(var(--clr-black));
+  font-weight: 700;
+}
+
+.highlight {
+  color: hsl(var(--clr-blue));
+}
+
+@media (min-width: 768px) {
+  .hero__image {
+    display: block;
+  }
+}
