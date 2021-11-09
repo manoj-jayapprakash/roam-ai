@@ -5,6 +5,8 @@ import { Clients } from './components/clients/Clients';
 import { Features } from './components/features/Features';
 import { Engine } from './components/engine/Engine';
 import { About } from './components/about/About';
+import { Contact } from './components/contact/Contact';
+
 function App() {
   return (
     <div className="app container">
@@ -13,6 +15,7 @@ function App() {
       <Features />
       <Engine />
       <About />
+      <Contact />
     </div>
   );
 }

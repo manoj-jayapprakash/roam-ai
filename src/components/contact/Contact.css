@@ -1,0 +1,6 @@
+@media (min-width: 768px) {
+  .contact__description {
+    width: 50%;
+    margin-inline: auto;
+  }
+}

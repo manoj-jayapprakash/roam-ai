@@ -5,6 +5,8 @@ import hero from '../../assets/hero.svg';
 import apple from '../../assets/apple.png';
 import android from '../../assets/android.png';
 
+import { Button } from '../utils/Button';
+
 export const Hero = () => {
   return (
     <section className="hero responsive-alignment">
@@ -18,12 +20,16 @@ export const Hero = () => {
           build accurate and efficient location-aware apps.
         </p>
         <div className="hero__actions">
-          <a className="btn btn-primary" href="google.com">
-            Start for free
-          </a>
-          <a className="btn btn-secondary" href="google.com">
-            Contact Sales
-          </a>
+          <Button
+            type="Primary"
+            address="https://google.com"
+            value={'Start for free'}
+          />
+          <Button
+            type="Secondary"
+            address="https://google.com"
+            value={'Contact Sales'}
+          />
         </div>
         <div className="mobile__sdks flex">
           <img src={apple} alt="Apple icon" width="25" height="25" />

@@ -100,6 +100,10 @@ section {
   font-weight: 700;
 }
 
+.txt-center {
+  text-align: center;
+}
+
 .spacer > * {
   margin-top: var(--spacing, 1rem);
 }
