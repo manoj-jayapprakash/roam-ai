@@ -80,6 +80,7 @@ li {
 
 ul {
   padding: 0;
+  margin: 0;
 }
 
 /* remove animations for people who've turned them off */

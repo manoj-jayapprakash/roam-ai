@@ -6,6 +6,7 @@ import { Features } from './components/features/Features';
 import { Engine } from './components/engine/Engine';
 import { About } from './components/about/About';
 import { Contact } from './components/contact/Contact';
+import { Footer } from './components/footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Engine />
       <About />
       <Contact />
+      <Footer />
     </div>
   );
 }
