@@ -1,3 +1,7 @@
+.section__links {
+  color: hsl(var(--clr-blue));
+}
+
 @media (min-width: 768px) {
   .compare__sdks {
     display: flex;

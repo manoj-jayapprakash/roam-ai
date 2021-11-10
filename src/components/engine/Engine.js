@@ -12,8 +12,10 @@ export const Engine = () => {
         Get consistent and noise-free location data powered by data filters and
         IMU sensor fusion with up to 5 meters accuracy.
       </p>
-      <div className="section__links">
-        <a href="https://google.com">view documentation</a>
+      <div>
+        <a className="section__links" href="https://google.com">
+          view documentation
+        </a>
       </div>
       <div className="compare__sdks spacer">
         <img

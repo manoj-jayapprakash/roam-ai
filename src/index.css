@@ -70,6 +70,7 @@ select {
 /* Removes underline from anchor tag */
 a {
   text-decoration: none;
+  color: hsl(var(--clr-grey));
 }
 
 /* Removes styles from li */

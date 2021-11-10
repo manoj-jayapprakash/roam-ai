@@ -75,7 +75,7 @@ Components
 }
 
 section {
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
 }
 
 .section__title {
@@ -107,6 +107,10 @@ section {
 
 /* Desktop and larger screens */
 @media (min-width: 1110px) {
+  section {
+    margin-bottom: 15rem;
+  }
+
   .responsive-alignment {
     text-align: left;
   }

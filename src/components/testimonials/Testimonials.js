@@ -12,8 +12,10 @@ export const Testimonials = () => {
           Developers from startups to large enterprises use our SDK and APIs to
           build accurate and efficient location-aware apps.
         </p>
-        <div className="section__links">
-          <a href="https://google.com">View full story</a>
+        <div>
+          <a className="section__links" href="https://google.com">
+            View full story
+          </a>
         </div>
       </div>
       <div className="testimonials__right spacer">
