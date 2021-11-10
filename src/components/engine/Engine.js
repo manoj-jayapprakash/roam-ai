@@ -16,8 +16,16 @@ export const Engine = () => {
         <a href="https://google.com">view documentation</a>
       </div>
       <div className="compare__sdks spacer">
-        <img src={native} alt="Native gps with upto 65 meters accuracy" />
-        <img src={roam} alt="Roam sdk provides upto 15 meters accuracy" />
+        <img
+          src={native}
+          alt="Native gps with upto 65 meters accuracy"
+          loading="lazy"
+        />
+        <img
+          src={roam}
+          alt="Roam sdk provides upto 15 meters accuracy"
+          loading="lazy"
+        />
       </div>
     </section>
   );

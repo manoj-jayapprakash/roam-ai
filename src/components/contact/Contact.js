@@ -23,15 +23,3 @@ export const Contact = () => {
     </section>
   );
 };
-{
-  /* <Button
-            type="Primary"
-            address="https://google.com"
-            value={'Start for free'}
-          />
-          <Button
-            type="Secondary"
-            address="https://google.com"
-            value={'Contact Sales'}
-          /> */
-}

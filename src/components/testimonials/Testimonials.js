@@ -1,39 +1,8 @@
 import './Testimonials.css';
 
 import { Testimonial } from './Testimonial';
-import monica from '../../assets/avatar-aiysha.jpg';
-
+import { testimonials } from './testimonial-data';
 export const Testimonials = () => {
-  const testimonials = [
-    {
-      quote:
-        "We did build our own location tracking solution. Although I'm proud of it, switching to Roam was a great decision as our customers spotted the ..",
-      author: 'Monica',
-      image: monica,
-      role: 'Senior Engineer',
-    },
-    {
-      quote:
-        "We did build our own location tracking solution. Although I'm proud of it, switching to Roam was a great decision as our customers spotted the ..",
-      author: 'Monica',
-      image: monica,
-      role: 'Senior Engineer',
-    },
-    {
-      quote:
-        "We did build our own location tracking solution. Although I'm proud of it, switching to Roam was a great decision as our customers spotted the ..",
-      author: 'Monica',
-      image: monica,
-      role: 'Senior Engineer',
-    },
-    {
-      quote:
-        "We did build our own location tracking solution. Although I'm proud of it, switching to Roam was a great decision as our customers spotted the ..",
-      author: 'Monica',
-      image: monica,
-      role: 'Senior Engineer',
-    },
-  ];
   return (
     <section className="container testimonials txt-center" id="section-3">
       <div className="spacer testimonials__left">

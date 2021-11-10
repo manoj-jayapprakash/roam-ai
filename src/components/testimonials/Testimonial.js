@@ -6,7 +6,13 @@ export const Testimonial = (props) => {
       </blockquote>
       <div className="flex testimonial__author">
         <div className="testimonial__author-image">
-          <img src={props.image} alt="Author " width="40" height="40" />
+          <img
+            src={props.image}
+            alt="Author "
+            width="40"
+            height="40"
+            loading="lazy"
+          />
         </div>
         <div className="testimonial__author-details">
           <h4 className="testimonial__author-name">{props.name}</h4>
