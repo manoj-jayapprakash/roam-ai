@@ -8,6 +8,7 @@
 }
 
 .highlight {
+  display: inline-block;
   color: hsl(var(--clr-blue));
   position: relative;
   z-index: 1;
@@ -17,7 +18,7 @@
   content: '';
   position: absolute;
   background-color: hsl(var(--clr-white));
-  top: 35px;
+  top: 30px;
   left: 95px;
   width: 30px;
   height: 30px;
