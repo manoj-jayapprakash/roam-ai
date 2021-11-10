@@ -19,23 +19,23 @@ function App() {
       <Header />
       <Hero />
       <Clients />
-      <Fade left>
+      <Fade left duration={2000}>
         <Features />
       </Fade>
 
-      <Slide right>
+      <Slide right duration={2000}>
         <Engine />
       </Slide>
 
-      <Fade left>
+      <Fade left duration={2000}>
         <About />
       </Fade>
 
-      <Slide right>
+      <Slide right duration={2000}>
         <Testimonials />
       </Slide>
 
-      <Fade>
+      <Fade duration={2000}>
         <Contact />
       </Fade>
 
